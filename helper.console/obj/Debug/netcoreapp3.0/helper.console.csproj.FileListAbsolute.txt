@@ -1,0 +1,13 @@
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\bin\Debug\netcoreapp3.0\helper.console.exe
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\bin\Debug\netcoreapp3.0\helper.console.deps.json
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\bin\Debug\netcoreapp3.0\helper.console.runtimeconfig.json
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\bin\Debug\netcoreapp3.0\helper.console.runtimeconfig.dev.json
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\bin\Debug\netcoreapp3.0\helper.console.dll
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\bin\Debug\netcoreapp3.0\helper.console.pdb
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\bin\Debug\netcoreapp3.0\Fleck.dll
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\obj\Debug\netcoreapp3.0\helper.console.csprojAssemblyReference.cache
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\obj\Debug\netcoreapp3.0\helper.console.AssemblyInfoInputs.cache
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\obj\Debug\netcoreapp3.0\helper.console.AssemblyInfo.cs
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\obj\Debug\netcoreapp3.0\helper.console.csproj.CopyComplete
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\obj\Debug\netcoreapp3.0\helper.console.dll
+G:\study\C#实验\C#套接字和远程通讯程序\Web-Analysis-Helper\helper.console\obj\Debug\netcoreapp3.0\helper.console.pdb
