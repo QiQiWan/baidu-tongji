@@ -65,16 +65,19 @@ namespace helper.console
         private string ACCESS_TOKEN;
         private string siteId;
         private string RequestUrl = "https://openapi.baidu.com/rest/2.0/tongji/report/getData?";
+        public string resultJson = "";
         public BaiduWebHelper()
         {
             this.ACCESS_TOKEN = Common.GetAccessToken();
             this.siteId = Common.site_id;
         }
+
+
         /// <summary>
         /// 获取百度API返回的JSON
         /// </summary>
         /// <returns></returns>
-        public string GetResult()
+        public void GetResult()
         {
             string url = RequestUrl +
                 "access_token=" + ACCESS_TOKEN + "&" +
@@ -94,7 +97,7 @@ namespace helper.console
             response = request.GetResponse() as HttpWebResponse;
             result += ReadWebStream(response.GetResponseStream());
 
-            return result;
+            resultJson = result;
         }
         /// <summary>
         /// 读取web响应流
