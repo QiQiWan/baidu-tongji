@@ -23,7 +23,7 @@ namespace helper.console
             baidu.GetResult();
 
             Handle handle = new Handle(RefreshCatch);
-            TimeTick tick = new TimeTick(3600000);
+            TimeTick tick = new TimeTick(60000);
             tick.Start(handle);
 
             server = new HttpServer();
@@ -42,7 +42,7 @@ namespace helper.console
                 server.Stop();
             }
         }
-        static public string GetStatics() => baidu.resultJson;
+        static public string GetStatics() => baidu.resultScript;
         static public void UpdateToken() => baidu.RefreshToken();
         static public WebSocketServerHelper GetServerHelper() => serverHelper;
         static public void RefreshCatch(object source, System.Timers.ElapsedEventArgs e) => baidu.GetResult();

@@ -65,7 +65,7 @@ namespace helper.console
         private string ACCESS_TOKEN;
         private string siteId;
         private string RequestUrl = "https://openapi.baidu.com/rest/2.0/tongji/report/getData?";
-        public string resultJson = "";
+        public string resultScript = "";
         public BaiduWebHelper()
         {
             this.ACCESS_TOKEN = Common.GetAccessToken();
@@ -83,21 +83,20 @@ namespace helper.console
                 "access_token=" + ACCESS_TOKEN + "&" +
                 "site_id=" + siteId + "&";
             GetUVArgus getUVArgus = new GetUVArgus("20200301");
-            string result = "";
 
             //获取RV    
             request = HttpWebRequest.Create(url + GetRealVisittor.GetMethod()) as HttpWebRequest;
             request.Method = "GET";
             response = request.GetResponse() as HttpWebResponse;
-            result += ReadWebStream(response.GetResponseStream()) + ", ";
+            string RVobj = ReadWebStream(response.GetResponseStream());
             //获取UV
             url = url + getUVArgus.ToString();
             request = HttpWebRequest.Create(url) as HttpWebRequest;
             request.Method = "GET";
             response = request.GetResponse() as HttpWebResponse;
-            result += ReadWebStream(response.GetResponseStream());
+            string UVobj = ReadWebStream(response.GetResponseStream());
 
-            resultJson = result;
+            resultScript = ScriptCreator.ExternalSource(RVobj, UVobj);
         }
         /// <summary>
         /// 读取web响应流
