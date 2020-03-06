@@ -27,7 +27,7 @@ namespace helper.console
             tick.Start(handle);
 
             server = new HttpServer();
-            server.AddDomain("http://127.0.0.1:1234/");
+            server.AddDomain("http://localhost:1234/");
             try{
                 server.Start();
                 server.WaitRequest();
