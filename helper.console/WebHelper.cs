@@ -146,7 +146,6 @@ namespace helper.console
             foreach (var item in domainList)
                 server.Prefixes.Add(item);
             server.Start();
-            Log.WriteLine(Common.GetTime() + "服务器已启动");
             //IAsyncResult result = server.BeginGetContext(new AsyncCallback(SetResponse), server);
         }
         /// <summary>

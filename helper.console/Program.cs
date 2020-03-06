@@ -28,6 +28,8 @@ namespace helper.console
 
             server = new HttpServer();
             server.AddDomain("http://localhost:1234/");
+
+            Log.WriteLine(Common.GetTime() + "服务器已启动: http://localhost:1234/");
             try{
                 server.Start();
                 server.WaitRequest();
