@@ -1,8 +1,8 @@
 {
-    "client_id": "VngcfzUiCSPxiIEEbgbMiqTGBWaEqW2a",
-    "client_secret": "5WTkcLpyPOsGAUtpKxVj5oZQMem1hx50",
-    "access_token": "21.976dbc018c630eb92f131838feb2c72a.2592000.1586003542.240598184-10726351",
-    "refresh_token": "22.8eab71b8aed89f942213443676ab2391.315360000.1898771542.240598184-10726351",
+    "client_id": "",
+    "client_secret": "",
+    "access_token": "",
+    "refresh_token": "",
     "start_date": "20200301",
     "site_id": "14495663"
 }
