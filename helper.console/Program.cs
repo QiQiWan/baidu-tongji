@@ -27,7 +27,7 @@ namespace helper.console
             tick.Start(handle);
 
             server = new HttpServer();
-            server.AddDomain("http://localhost:1234/");
+            server.AddDomain("http://*:1234/");
 
             Log.WriteLine(Common.GetTime() + "服务器已启动: http://localhost:1234/");
             try{

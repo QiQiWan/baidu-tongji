@@ -89,7 +89,7 @@ namespace helper.console
             request = HttpWebRequest.Create(url + GetRealVisittor.GetMethod()) as HttpWebRequest;
             request.Method = "GET";
             response = request.GetResponse() as HttpWebResponse;
-            result += ReadWebStream(response.GetResponseStream());
+            result += ReadWebStream(response.GetResponseStream()) + ", ";
             //获取UV
             url = url + getUVArgus.ToString();
             request = HttpWebRequest.Create(url) as HttpWebRequest;
